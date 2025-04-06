@@ -1,3 +1,5 @@
+0. save TextureConverter.cs and OpenAIImageRecognition.cs somewhere inside your Project folder. 
+
 1. Save a test image in the following location:
 Unity Project Folder => Assets => Resources
 
