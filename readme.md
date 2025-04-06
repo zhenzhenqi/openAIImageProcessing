@@ -25,7 +25,7 @@ Purpose: You need to install Newtonsoft.Json (often called Json.NET) for the Ope
 5. Create a new scene. Select the new GameObject and add the OpenAIImageRecognition script as a component (Add Component button in the Inspector, then search for OpenAIImageRecognition).
 
 6. Configure in Inspector: With the GameObject selected, configure the script's public fields in the Inspector panel: 
-* Api Key: Carefully paste your secret OpenAI API key here. Remember the security warning – this is okay for testing but not for production!
+* Api Key: Carefully paste your secret OpenAI API key here. Remember the security warning â€“ this is okay for testing but not for production!
 * Image To Recogize: Drag a Texture2D asset (like a .png or .jpg file you imported into Unity) from your Project window onto this slot. Ensure the texture has "Read/Write Enabled" checked in its Import Settings if TextureConverter doesn't handle this automatically (though the provided TextureConverter should handle it).
 * Prompt: Type your question or instruction for the AI regarding the image (e.g., "Describe this image in detail", "What objects are present?", "Is there a cat in this image?").
 * Max Tokens: Leave as default (300) or adjust if you need a shorter/longer response.
